@@ -1,0 +1,17 @@
+$primary: #ff8080;
+$background-color:#E6E6E6;
+$border-color: #ffb3b3;
+$box-shadow:0 0 0 .25rem rgba(255, 179, 186, .7);
+
+.form-control {
+  padding: 1.25rem .75rem;
+  background-color: $background-color;
+  border: 0px;
+  border-radius: 2rem;
+}
+
+.form-control:focus {
+  border-color: $border-color;
+  box-shadow: $box-shadow;
+}
+
